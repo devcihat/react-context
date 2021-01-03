@@ -30,14 +30,14 @@ const AddMovie = () => {
   return (
     <div className="container text-center pt-3">
       <form onSubmit={addMovie}>
-        <div class="  mb-3">
-          <label for="exampleInputEmail1" class="form-label">
+        <div className="mb-3">
+          <label for="exampleInputEmail1" className="form-label">
             Movie Image
           </label>
           <input
             required
             type="text"
-            class="form-control"
+            className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             name="name"
@@ -45,14 +45,14 @@ const AddMovie = () => {
             onChange={updateImage}
           />
         </div>
-        <div class="  mb-3">
-          <label for="exampleInputEmail1" class="form-label">
+        <div className="  mb-3">
+          <label for="exampleInputEmail1" className="form-label">
             Movie Name
           </label>
           <input
             required
             type="text"
-            class="form-control"
+            className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             name="name"
@@ -60,14 +60,14 @@ const AddMovie = () => {
             onChange={updateName}
           />
         </div>
-        <div class="  mb-3">
-          <label for="exampleInputPassword1" class="form-label">
+        <div className="  mb-3">
+          <label for="exampleInputPassword1" className="form-label">
             Movie Price
           </label>
           <input
             required
             type="text"
-            class="form-control"
+            className="form-control"
             id="exampleInputPassword1"
             name="price"
             value={price}
@@ -75,7 +75,7 @@ const AddMovie = () => {
           />
         </div>
 
-        <button type="submit" class="btn btn-primary mb-3">
+        <button type="submit" className="btn btn-primary mb-3">
           Add Movie
         </button>
       </form>
