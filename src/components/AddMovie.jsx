@@ -65,6 +65,7 @@ const AddMovie = () => {
             Movie Price
           </label>
           <input
+            placeholder="$"
             required
             type="text"
             className="form-control"
