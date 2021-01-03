@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MovieList from "./components/MovieList";
@@ -9,11 +9,9 @@ import { MovieProvider } from "./components/MovieContext";
 function App() {
   return (
     <MovieProvider>
-      <div className="Container">
-        <Nav />
-        <AddMovie />
-        <MovieList />
-      </div>
+      <Nav />
+      <AddMovie />
+      <MovieList />
     </MovieProvider>
   );
 }
