@@ -37,7 +37,7 @@ const AddMovie = () => {
           <input
             required
             type="text"
-            className="form-control"
+            className="form-control w-100"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             name="name"
